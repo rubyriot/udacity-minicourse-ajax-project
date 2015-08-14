@@ -12,7 +12,7 @@ body {background-color: #CCC;}
 
 .greeting {
     color:black;
-    text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+	background-color: rgba(255, 255, 255, 0.7);
     text-align: center;
 }
 
@@ -26,7 +26,8 @@ body {background-color: #CCC;}
 
 .nytimes-container {
     padding: 10px;
-    margin-right:300px;
+    margin-right:400px;
+	margin-left: 100px;
     background-color: rgba(255,255,255,0.7);
 }
 

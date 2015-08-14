@@ -30,9 +30,9 @@ function loadData() {
 				var url = this.web_url;
 				var description = this.lead_paragraph;
 				var heading = this.headline.main;
-				info = '<li><a href="'+url+'">'+heading+'</a><p>'+description+'</p></li>';
+				info = '<li class="article"><a href="'+url+'">'+heading+'</a><p>'+description+'</p></li>';
 				var entry = $('#nytimes-articles').append(info);
-				if ( index === 5 ) {
+				if ( index === 4 ) {
 					return false;
 				}
 			});
